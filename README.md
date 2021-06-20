@@ -1,5 +1,5 @@
 # LinkedLists
-A basic implementation of LinkedList data structure in C# 
+A basic implementation of LinkedList data structure from scratch in C# .
 This LinkedList implements methods below.
 
 ```

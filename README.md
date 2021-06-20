@@ -1,8 +1,9 @@
 # LinkedLists
-A basic implementation of LinkedList data structure using Array in C# 
+A basic implementation of LinkedList data structure in C# 
 This LinkedList implements methods below.
 
-```AddFirst()
+```
+AddFirst()
 AddLast()
 DeleteFirst()
 DeleteLast()
@@ -11,3 +12,4 @@ Contains()
 IndexOf()
 Count()
 Reverse()
+```

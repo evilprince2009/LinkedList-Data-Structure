@@ -8,7 +8,31 @@ namespace Lists
     {
         static void Main()
         {
-            // Write your code to use custom LinkedList.
+            LinkedLists buffer = new LinkedLists();
+            buffer.AddLast(1);
+            buffer.AddLast(2);
+            buffer.AddLast(3);
+
+            foreach (var n in buffer.GetItems())
+            {
+                Console.WriteLine(n);
+            }
         }
+
+        //private static string Reverse(string input)
+        //{
+        //    Stack<char> container = new Stack<char>();
+        //    char[] buffer = input.ToCharArray();
+
+        //    foreach (char ch in buffer)
+        //        container.Push(ch);
+
+        //    StringBuilder result = new StringBuilder();
+
+        //    for (int i = 0; i < buffer.Length; i++)
+        //        result.Append(container.Pop());
+
+        //    return result.ToString();
+        //}
     }
 }

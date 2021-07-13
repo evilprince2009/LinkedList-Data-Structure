@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace Lists
 {
@@ -172,19 +174,18 @@ namespace Lists
             _first = previous;
         }
 
-        public void Print()
+        public int[] GetItems()
         {
             Node current = _first;
-
-            Console.Write("[ ");
+            List<int> container = new List<int>();
+            
             while (!CheckEmpty(current))
             {
-                Console.Write(current.Value + " ");
+                container.Add(current.Value);
                 current = current.Next;
             }
 
-            Console.Write("]");
-            Console.WriteLine();
+            return container.ToArray();
         }
 
         // Implementation details
